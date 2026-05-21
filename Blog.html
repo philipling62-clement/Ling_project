@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Blog</title>
+            <meta charset="UTF-8">
+            
+            <link rel="icon" href="blogic.png">
+            <style>
+                body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: darkgray;
+    color: #333;
+}
+header{
+    background-image: url(images.jfif);
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+.container{
+    display: flex;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 0 20px;
+    gap: 20px;
+}
+.blog-post{
+    flex: 3;
+}
+.post{
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.post h2{
+    margin-top: 0;
+}
+.meta{
+    font-size: 0.8rem;
+    color: #777;
+    margin-bottom: 15px;
+}
+.siderbar{
+    flex: 1;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    height: fit-content;
+}
+.siderbar h3{
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+.siderbar ul{
+    list-style: none;
+    padding-bottom: 10px;
+}
+.siderbar ul li{
+    margin-bottom: 10px;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+    margin-top: 20px;
+}
+@media (max-width:768px){
+    .container{
+        flex-direction: column;
+    }
+}
+ul.july{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: #ff7200;
+}
+html, body{
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+            </style>
+        </head>
+            <body>
+                <header>
+                    <h1>Our Blog</h1>
+                    <p>Sharing our thoughts on the codes of Tourism.</p>
+                </header>
+                     <ul class="july">
+                                <li><a href="Mywebproject.html">Mywebproject</a></li>
+                                <li><a href="Homepage.html">Home</a></li>
+                                <li><a href="About.html">About</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="Gallery.html">Gallery</a></li>
+                                <li><a href="Blog.html">Blog</a></li>
+                                <li><a href="Contact.html">Contact</a></li>
+                                <li><a href="FAQ.html">FAQ</a></li>
+                                <li><a href="Registration-Login.html">Registration-Login</a></li>
+                    </ul><br><br>
+                            <div class="Container"><br><br>
+                                <main class="blog-posts"><br>
+                                    <article class="post"><br>
+                                        <h2>Understanding <br>Tour</h2>
+                                            <p class="meta">Published on May 21,2026 by Author</p>
+                                            <p>Learn how to visit beautifull places and have experience of the Nature</p>
+                                    
+                                    </article>
+                                                <article class="post">
+                                                    <h2>Why I love Nature</h2>
+                                                        <p class="meta">Published on May 21,2026 by Author</p>
+                                                        <p>Nature is of the beautifull thing to explore around the world</p>
+                                                </article>
+                                </main>
+                                        <aside class="sidebar">
+                                            <h3>About Tour</h3>
+                                                <p>We tour around the world to explore the beauty of the world to see the animals and there different types</p>
+                                                <h3>Categories</h3>
+                                                    <ul>
+                                                        <li><a href="#">Wild Animals</a></li>
+                                                        <li><a href="#">Beauty of the world</a></li>
+                                                        <li><a href="#">Hills and  Mountains</a></li>
+                                                    </ul>
+                                        </aside>
+                            </div>
+                                <footer>
+                                    <p>&copy; 2026 Our simple Blog.All rights reserved.</p>
+                                </footer>
+            </body>
+    </html>

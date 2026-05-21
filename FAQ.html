@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+    <html>
+    </html>
+        <head>
+            <title>FAQ</title>
+            <link rel="icon" href="faqic.png">
+            <style>
+                .faq-container{
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+details{
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+}
+summary::after{
+    content: '+';
+    float: right;
+    font-size: 1,2rem;
+}
+details[open] summary::after{
+    content: '+';
+}
+.content{
+    padding: 10px 5px;
+    border-top: 1px solid #eee;
+    color: #555;
+    line-height: 1.6;
+}
+details:hover{
+    background-color: #f1f1f1;
+}
+header{
+    background-image: url(images.jfif);
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+    color: black;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+    margin-top: 20px;
+}
+ul.july{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: #ff7200;
+}
+html, body{
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+.submit-btn{
+    background-color: #ff5a5f;
+    color: white;
+    border: none;
+    padding:15px 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+.submit-btn:hover{
+    background-color: #e34348;
+}
+            </style>
+        </head>
+                <body>
+                    <header>
+                            <h1>Frequently Asked Question</h1>
+                    </header>
+                     <ul class="july">
+                                <li><a href="Mywebproject.html">Mywebproject</a></li>
+                                <li><a href="Homepage.html">Home</a></li>
+                                <li><a href="About.html">About</a></li>
+                                <li><a href="Services.html">Services</a></li>
+                                <li><a href="Gallery.html">Gallery</a></li>
+                                <li><a href="Blog.html">Blog</a></li>
+                                <li><a href="Contact.html">Contact</a></li>
+                                <li><a href="FAQ.html">FAQ</a></li>
+                                <li><a href="Registration-Login.html">Registration-Login</a></li>
+                    </ul>
+                        <section class="faq-container">
+                            <h2 style="text-align:center;">Asked Question Here</h2>
+                                <details>
+                                    <summary>What is your return policy</summary>
+                                    <div class="content">
+                                        <p>Free returns are accepted within 30 days of Tour.</p>
+                                        <input type="text">
+                                    </div>
+                                </details>
+                                        <details>
+                                            <summary>Do you offer international Tour.</summary>
+                                                <div class="content">
+                                                    <p>Yes we do. We tour to over 40 Countries worldwide with the purpose of exploring the world.</p>
+                                                     <input type="text">
+                                                </div>
+                                        </details>
+                                         <button type="submit" class="submit-btn">Send</button>
+                        </section>
+                        <footer>
+                                    <p>Copyright &copy; 2026 Our FAQ!!.All rights reserved.</p>
+                                </footer>
+                </body>
+    </html>

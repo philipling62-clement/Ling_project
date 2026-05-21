@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Contact Us - Safari Tourism</title>
+            
+            <link rel="icon" href="contact icon.png">
+            <style>
+                ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: #ff7200;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:darkgray;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+.contact-container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 15 rgba(0,0,0,0.1);
+}
+header{
+    text-align: center;
+    margin-bottom: 40px;
+}
+header h2{
+    color: #2c3e50;
+    font-size: 2.5rem;
+}
+.contact-content{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.form-section{
+    flex: 2;
+    min-width: 300px;
+}
+.Info-section{
+    flex: 1;
+    min-width: 250px;
+    background: #e8f4f8;
+    padding: 20px;
+    border-radius: 8px;
+}
+.input-group{
+    margin-bottom: 20px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input, select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.submit-btn{
+    background-color: #ff5a5f;
+    color: white;
+    border: none;
+    padding:15px 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+.submit-btn:hover{
+    background-color: #e34348;
+}
+address{
+    font-style: normal;
+    line-height: 1.6;
+}
+@media (max-with:768px){
+    .contact-content{
+        flex-direction: column;
+    }
+}
+            </style>
+        </head>
+            <body>
+                 <ul>
+                    <li><a href="Mywebproject.html">Mywebproject</a></li>
+                    <li><a href="Homepage.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Services.html">Services</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <li><a href="Blog.html">Blog</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                    <li><a href="FAQ.html">FAQ</a></li>
+                    <li><a href="Registration-Login.html">Registration-Login</a></li><br>
+                </ul>
+                    <div class="contact-container">
+                        <header>
+                            <h2>Get in Touch with us</h2>
+                            <p>Plan yor next adventure with us.Our travel experts are ready to help!</p>
+                        </header>
+                            <main class="contact-content">
+                                <section id="form-section">
+                                    <div class="input-group">
+                                <form id="contactForm">
+                                        <label for="name">Full Name</label>
+                                        <input type="text" id="name"name="name" placeholder="Your Name">
+                                    </div>
+                                         <div class="input-group">
+                                           <label for="email">Email Address</label>
+                                           <input type="email" id="email"name="email" placeholder="Your Email">
+                                        </div>
+                                            <div class="input-group">
+                                                <label for="Destination">Interested Destination</label>
+                                                    <select id="destination"name="destination">
+                                                        <option value="Kenya">Kenya</option>
+                                                        <option value="Tanzania">Tanzania</option>
+                                                        <option value="Congo">Congo</option>
+                                                        <option value="Rwanda">Rwanda</option>
+                                                        <option value="Uganda">Uganda</option>
+                                                    </select>
+                                            </div>
+                                                <div class="input-group">
+                                                    <label for="message">Your Message</label>
+                                                    <textarea id="message"name="message" rows="5" placeholder="Tell us you dream trip..."></textarea>
+                                                </div>
+                                                    <button type="submit" class="submit-btn">Send Inquiry</button>
+                                    </form>
+                                </section>
+                                <!--Office Information Section-->
+                                    <aside class="Info-section">
+                                        <h3>Our Office</h3>
+                                            <address>
+                                                <p><strong>SafariTourism HQ</strong></p>
+                                                <P>123 Tour the world</P>
+                                                <br>
+                                                <p><strong>Email:</strong>SafariTourism@gmail.com</p>
+                                                <p><strong>Phone:</strong>+25072666522</p>
+                                            </address>
+                                                    <div class="Social-links">
+                                                        <P>Follow our journey</P>
+                                                        <a href="https://help.instagram.com/1128997980474717/">Instagram</a>
+                                                    </div>
+                                    </aside>
+                            </main>
+                    </div>
+            </body>
+    </html>

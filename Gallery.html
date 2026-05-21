@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Gallery</title>
+            <link rel="icon" href="gall icon.jfif">
+            <style>
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 0 auto;
+}
+.gallery-item{
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
+    transition: transform 0.3s ease;
+}
+.gallery-item:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(red, green, blue, alpha);
+}
+.gallery-item img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+.caption{
+    padding: 15px;
+    text-align: center;
+    background: skyblue;
+    font-family:sans-serif;
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: #ff7200;
+}
+header{
+    background-image: url(images.jfif);
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+    color: black;
+}
+            </style>
+        </head>
+            <body style="background-color: bisque;">
+
+               <header>
+                    <h1>Our Gallery</h1>
+                    <p>Sharing our tour through Picture.</p>
+                </header>
+                <h2>Gallery</h2>
+                <ul class="july">
+                                <li><a href="Mywebproject.html">Mywebproject</a></li>
+                                <li><a href="Homepage.html">Home</a></li>
+                                <li><a href="About.html">About</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="Gallery.html">Gallery</a></li>
+                                <li><a href="Blog.html">Blog</a></li>
+                                <li><a href="Contact.html">Contact</a></li>
+                                <li><a href="FAQ.html">FAQ</a></li>
+                                <li><a href="Registration-Login.html">Registration-Login</a></li>
+                            </ul>
+                <div class="gallery"><br>
+                    <div class="gallery-item">
+                        <img src="images (1).jfif" alt="Nature">
+                            <div class="caption"Nature of the world>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images (3).jfif" alt="Nature">
+                                <div class="caption"wildlife>
+                            </div>
+                                <div class="gallery-item">
+                                <img src="images (2).jfif" alt="Nature">
+                                <div class="caption"adventure>
+                            </div>
+                            
+                    </div>
+                </div>
+                     <footer>
+                                    <p>&copy; 2026 Our Gallery.All rights reserved.</p>
+                                </footer>
+            </body>
+    </html>
